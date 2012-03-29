@@ -117,6 +117,7 @@ else
    hi Comment         guifg=#89A0A6
    hi CursorLine                    guibg=#293739
    hi CursorColumn                  guibg=#293739
+   hi CursorLineNr    guifg=#BFBFBF guibg=#232526   gui=bold
    hi LineNr          guifg=#BCBCBC guibg=#232526
    hi NonText         guifg=#007070 guibg=#232526
 end
@@ -208,6 +209,7 @@ if &t_Co > 255
    hi Comment         ctermfg=59
    hi CursorLine                  ctermbg=234   cterm=none
    hi CursorColumn                ctermbg=234
+   hi CursorLineNr    ctermfg=252 ctermbg=234   cterm=bold
    hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=30  ctermbg=233
 
